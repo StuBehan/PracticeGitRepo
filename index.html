@@ -9,13 +9,25 @@
 
         <p>Git commands</p>
         <ul style="list-style-type:none;">
+            <li>add .</li>
+                <ul style="list-style-type:none;">    
+                    <li>adds all changes to the staging area</li>
+                </ul>
+            <li>commit -m "commit comment"</li>
+                <ul style="list-style-type:none;">    
+                    <li>commits changes to the master or active branch</li>
+                </ul>
+            <li>log --online</li>
+                <ul style="list-style-type:none;">    
+                    <li>shows a log of commits keeping them to one line each</li>
+                </ul>
             <li>checkout /commit serial/</li>
                 <ul style="list-style-type:none;">    
                     <li>shows the master branch at that specfic commit - read only</li>
                 </ul>
-            <li>checkout master</li>
+            <li>checkout master (or /branch name/)</li>
                 <ul style="list-style-type:none;">
-                    <li>returns the master to its previous state without any changes</li>
+                    <li>returns to the specified branch</li>
                 </ul>
             <li>revert /commit serial/</li>
                 <ul style="list-style-type:none;">
@@ -24,6 +36,18 @@
             <li>reset /commit serial/</li>
                 <ul style="list-style-type:none;">
                     <li>resets the repo to the specified commit, removes all other changes, not reverseable!</li>
+                </ul>
+            <li>reset /commit serial/</li>
+                <ul style="list-style-type:none;">
+                    <li>resets the repo to the specified commit, removes all other changes, not reverseable!</li>
+                </ul>
+            <li>branch /branch name/</li>
+                <ul style="list-style-type:none;">    
+                    <li>creates a branch of the specified name</li>
+                </ul>
+            <li>branch -a</li>
+                <ul style="list-style-type:none;">    
+                    <li>shows a list of all branches</li>
                 </ul>
         </ul>
 
