@@ -1,3 +1,3 @@
 # PracticeGitRepo
 
-#repo for netninja github tutorial
+repo for netninja github tutorial
